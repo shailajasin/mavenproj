@@ -1,10 +1,10 @@
+//author omsairam
 package com.qa.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DemoTest {
-
 	@Test
 	public void Sum()
 	{
@@ -22,4 +22,5 @@ public class DemoTest {
 		int b=20;
 		Assert.assertEquals(10,b-a);
 	}
+
 }
